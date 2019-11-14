@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	<div align="center"><img src={{user.photoURL}} style="width: 20%"></div>
+	<div *ngIf="user.displayName"><label style="font-size: 20px">Usuario: {{user.displayName}}</label></div>
+	<div *ngIf="user.email"><label style="font-size: 20px">Email: {{user.email}}</label></div>
+	<div align="center"><ion-button expand="block" color="danger" (click)="logout()">Cerrar Sesión</ion-button></div>
+</ion-content>

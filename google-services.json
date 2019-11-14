@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "400020832259",
+    "firebase_url": "https://dogreport-5533e.firebaseio.com",
+    "project_id": "dogreport-5533e",
+    "storage_bucket": "dogreport-5533e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400020832259:android:f78ac558fc935acee9ce36",
+        "android_client_info": {
+          "package_name": "com.angularfirebase.dogreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400020832259-b50j53rlmnpnhe8p36sp2g3docvqdh5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.angularfirebase.dogreport",
+            "certificate_hash": "9c69c650a4e264777010daadde2467e1f6a9c858"
+          }
+        },
+        {
+          "client_id": "400020832259-08jm7tp14vtm2i1p05e8dkvrbpjrv6mf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3zAxcliJnna7y4rte_7E0jWA7xAn9LlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400020832259-08jm7tp14vtm2i1p05e8dkvrbpjrv6mf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "400020832259-e9guh8idm4aucp40fc29d9skqhl10n55.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.angularfirebase.dogreport"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

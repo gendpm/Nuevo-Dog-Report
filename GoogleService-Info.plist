@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>527922942990-8m1787cddu0i1f79sf0rjt56728bu20a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.527922942990-8m1787cddu0i1f79sf0rjt56728bu20a</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>400020832259-b50j53rlmnpnhe8p36sp2g3docvqdh5i.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB3zAxcliJnna7y4rte_7E0jWA7xAn9LlU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>400020832259</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.angularfirebase.dogreport</string>
+	<key>PROJECT_ID</key>
+	<string>dogreport-5533e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dogreport-5533e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:400020832259:ios:7ec18c525ff61e0ae9ce36</string>
+	<key>DATABASE_URL</key>
+	<string>https://dogreport-5533e.firebaseio.com</string>
+</dict>
+</plist>
