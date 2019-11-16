@@ -51458,7 +51458,7 @@ var LoginPageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>Iniciar Sesión</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content padding>\n\t\t<ion-button expand=\"block\" color=\"danger\" (click)=\"nativeGoogleLogin()\">Iniciar sesión con Google</ion-button>\n\t\t<ion-button expand=\"block\" (click)=\"doFacebookLogin()\">Iniciar sesión con Facebook</ion-button>\n</ion-content>\n"
+module.exports = "<ion-header>\r\n  <ion-toolbar>\r\n    <ion-title>Iniciar Sesión</ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n\r\n<ion-content padding>\r\n\t\t<ion-button expand=\"block\" color=\"danger\" (click)=\"nativeGoogleLogin()\">Iniciar sesión con Google</ion-button>\r\n\t\t<ion-button expand=\"block\" (click)=\"doFacebookLogin()\">Iniciar sesión con Facebook</ion-button>\r\n</ion-content>\r\n"
 
 /***/ }),
 

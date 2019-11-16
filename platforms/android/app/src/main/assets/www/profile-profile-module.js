@@ -62,7 +62,7 @@ var ProfilePageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>Perfil</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content padding>\n\t<div align=\"center\"><img src={{user.photoURL}} style=\"width: 20%\"></div>\n\t<div *ngIf=\"user.displayName\"><label style=\"font-size: 20px\">Usuario: {{user.displayName}}</label></div>\n\t<div *ngIf=\"user.email\"><label style=\"font-size: 20px\">Email: {{user.email}}</label></div>\n\t<div align=\"center\"><ion-button expand=\"block\" color=\"danger\" (click)=\"logout()\">Cerrar Sesión</ion-button></div>\n</ion-content>\n"
+module.exports = "<ion-header>\r\n  <ion-toolbar>\r\n    <ion-title>Perfil</ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n\r\n<ion-content padding>\r\n\t<div align=\"center\"><img src={{user.photoURL}} style=\"width: 20%\"></div>\r\n\t<div *ngIf=\"user.displayName\"><label style=\"font-size: 20px\">Usuario: {{user.displayName}}</label></div>\r\n\t<div *ngIf=\"user.email\"><label style=\"font-size: 20px\">Email: {{user.email}}</label></div>\r\n\t<div align=\"center\"><ion-button expand=\"block\" color=\"danger\" (click)=\"logout()\">Cerrar Sesión</ion-button></div>\r\n</ion-content>\r\n"
 
 /***/ }),
 

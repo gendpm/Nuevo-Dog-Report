@@ -132,4 +132,7 @@
     <feature name="NativeStorage">
         <param name="ios-package" value="NativeStorage" />
     </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
 </widget>

@@ -42,6 +42,9 @@
     },
     "cordova-plugin-nativestorage": {
       "PACKAGE_NAME": "com.angularfirebase.dogreport"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "io.ionic.photogallery"
     }
   },
   "dependent_plugins": {}

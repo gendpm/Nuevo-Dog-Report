@@ -79,6 +79,10 @@
             {
               "xml": "<feature name=\"NativeStorage\"><param name=\"android-package\" value=\"NativeStorage\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"Geolocation\"><param name=\"android-package\" value=\"org.apache.cordova.geolocation.Geolocation\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -88,6 +92,18 @@
           "/*": [
             {
               "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-feature android:name=\"android.hardware.location.gps\" />",
               "count": 1
             }
           ],
@@ -217,6 +233,9 @@
     },
     "cordova-plugin-nativestorage": {
       "PACKAGE_NAME": "com.angularfirebase.dogreport"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "io.ionic.photogallery"
     }
   },
   "dependent_plugins": {},
@@ -326,6 +345,20 @@
       "id": "cordova-plugin-nativestorage.NativeStorageError",
       "file": "plugins/cordova-plugin-nativestorage/www/NativeStorageError.js",
       "pluginId": "cordova-plugin-nativestorage"
+    },
+    {
+      "id": "cordova-plugin-geolocation.geolocation",
+      "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
+      "pluginId": "cordova-plugin-geolocation",
+      "clobbers": [
+        "navigator.geolocation"
+      ]
+    },
+    {
+      "id": "cordova-plugin-geolocation.PositionError",
+      "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
+      "pluginId": "cordova-plugin-geolocation",
+      "runs": true
     }
   ],
   "plugin_metadata": {
@@ -338,6 +371,7 @@
     "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-facebook4": "6.2.0",
     "cordova-plugin-googleplus": "8.2.0",
-    "cordova-plugin-nativestorage": "2.3.2"
+    "cordova-plugin-nativestorage": "2.3.2",
+    "cordova-plugin-geolocation": "4.0.2"
   }
 }

@@ -131,7 +131,7 @@ var Tab2PageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      Toma la foto del perrito\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n\n  <p align=\"center\"><img [src]=\"foto\" *ngIf=\"foto\"></p>\n  \n  <ion-fab vertical=\"bottom\" horizontal=\"center\" slot=\"fixed\">\n      <ion-fab-button (click)=\"takePicture();\">\n        <ion-icon name=\"camera\"></ion-icon>\n      </ion-fab-button>\n  </ion-fab>\n</ion-content>"
+module.exports = "<ion-header>\r\n  <ion-toolbar>\r\n    <ion-title>\r\n      Toma la foto del perrito\r\n    </ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n\r\n<ion-content>\r\n\r\n  <p align=\"center\"><img [src]=\"foto\" *ngIf=\"foto\"></p>\r\n  \r\n  <ion-fab vertical=\"bottom\" horizontal=\"center\" slot=\"fixed\">\r\n      <ion-fab-button (click)=\"takePicture();\">\r\n        <ion-icon name=\"camera\"></ion-icon>\r\n      </ion-fab-button>\r\n  </ion-fab>\r\n</ion-content>"
 
 /***/ }),
 
